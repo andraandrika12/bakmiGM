@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "client-bakmiGM",
+    "slug": "client-bakmiGM",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/iconBakmiGM.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splashBakmiGM.png",
+      "resizeMode": "300x300",
+      "backgroundColor": "#FEF9B0"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-iconBakmiGM.png",
+        "resizeMode": "300x300",
+        "backgroundColor": "#FEF9B0"
+      },
+      "package": "com.andraandrika12.clientbakmiGM",
+      "runtimeVersion": {
+        "policy": "sdkVersion"
+      }
+      
+    },
+    "web": {
+      "favicon": "./assets/faviconBakmiGM.png",
+      "resizeMode": "300x300"
+    }
+  }
+}
