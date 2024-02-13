@@ -55,7 +55,7 @@ export default function HorizontalCard() {
 const styles = StyleSheet.create({
   container: {
     marginTop: 40,
-    marginBottom: 20,
+    marginBottom: -10,
   },
   header: {
     flexDirection: "row",

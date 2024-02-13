@@ -14,6 +14,7 @@ import HistoryIcon from "../shopping-bag.png";
 import ContactIcon from "../speech-bubble.png";
 import CardRefer from "../components/CardRefer";
 import HorizontalCard from "../components/HorizontalCard";
+import CardPrivileges from "../components/CardPrivileges";
 
 export default function Home() {
   const insets = useSafeAreaInsets();
@@ -79,6 +80,7 @@ export default function Home() {
         <ButtonGrid items={buttonItems} />
         <CardRefer/>
         <HorizontalCard/>
+        <CardPrivileges/>
       </ScrollView>
     </SafeAreaView>
   );
