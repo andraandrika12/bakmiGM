@@ -27,7 +27,8 @@ const styles = StyleSheet.create({
   logo: {
     width: 70,
     height: 70,
-    left: 5,
+    left: 8,
+    bottom: -3
   },
   qrCode: {
     left: 220,

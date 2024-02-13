@@ -13,6 +13,7 @@ import PrivilegeIcon from "../price-tag.png";
 import HistoryIcon from "../shopping-bag.png";
 import ContactIcon from "../speech-bubble.png";
 import CardRefer from "../components/CardRefer";
+import HorizontalCard from "../components/HorizontalCard";
 
 export default function Home() {
   const insets = useSafeAreaInsets();
@@ -77,6 +78,7 @@ export default function Home() {
         <CardPoints title="Bakmi GM Points" status="Points" />
         <ButtonGrid items={buttonItems} />
         <CardRefer/>
+        <HorizontalCard/>
       </ScrollView>
     </SafeAreaView>
   );
