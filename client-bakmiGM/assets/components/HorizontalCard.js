@@ -83,7 +83,7 @@ const styles = StyleSheet.create({
     marginRight: -10,
   },
   imageContainer: {
-    borderWidth: 1.5,
+    borderWidth: 1,
     borderColor: "#ccc",
     borderRadius: 7,
     overflow: "hidden",

@@ -15,6 +15,7 @@ import ContactIcon from "../speech-bubble.png";
 import CardRefer from "../components/CardRefer";
 import HorizontalCard from "../components/HorizontalCard";
 import CardPrivileges from "../components/CardPrivileges";
+import OutletLocation from "../components/OutletLocation";
 
 export default function Home() {
   const insets = useSafeAreaInsets();
@@ -72,8 +73,10 @@ export default function Home() {
 
   return (
     <SafeAreaView style={styles.container}>
-      <ScrollView>
+      <View style={styles.headerContainer}>
         <Header />
+      </View>
+      <ScrollView contentContainerStyle={styles.scrollContent}>
         <HorizontalSlider />
         <CardMember title="Your Level" progress={0} status="Gold Target" />
         <CardPoints title="Bakmi GM Points" status="Points" />
@@ -81,6 +84,7 @@ export default function Home() {
         <CardRefer/>
         <HorizontalCard/>
         <CardPrivileges/>
+        <OutletLocation/>
       </ScrollView>
     </SafeAreaView>
   );
@@ -90,5 +94,20 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: "#fff",
+  },
+  headerContainer: {
+    position: "absolute",
+    top: 0,
+    left: 0,
+    right: 0,
+    zIndex: 1,
+    backgroundColor: "white",
+    height: 100,
+    borderRadius: 10,
+    elevation: 3,
+  },
+  scrollContent: {
+    paddingTop: 180, 
+    backgroundColor: "white"
   },
 });

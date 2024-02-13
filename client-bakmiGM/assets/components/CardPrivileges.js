@@ -79,10 +79,11 @@ const styles = StyleSheet.create({
     width: "48%",
     marginBottom: 20,
     marginRight: 15, 
-    borderWidth: 1.5,
+    borderWidth: 1,
     borderColor: "#ccc",
     borderRadius: 7,
     overflow: "hidden",
+    
   },
   imageContainer: {
     overflow: "hidden",
@@ -91,6 +92,7 @@ const styles = StyleSheet.create({
     width: "100%",
     height: 180,
     resizeMode: "cover",
+    
   },
   infoContainer: {
     padding: 10,
